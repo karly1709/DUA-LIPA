@@ -25,13 +25,13 @@ header img {
 
 /* Título y subtítulo en el header */
 header h1 {
-    font-size: 50px;
+    font-size: 5vw; /* Ajuste del tamaño de fuente al tamaño de la pantalla */
     padding-top: 20px;
 }
 
 header h2 {
     color: #470514;
-    font-size: 35px; 
+    font-size: 4vw; /* Ajuste del tamaño de fuente al tamaño de la pantalla */
     padding-bottom: 15px;
 }
 
@@ -40,23 +40,27 @@ main h3 {
     padding: 50px;
     color: #3f0512; 
     text-align: center; /* Centramos los títulos */
-    font-size: 40px;
+    font-size: 4vw; /* Ajuste del tamaño de fuente al tamaño de la pantalla */
 }
+
 main h2 {
     padding: 15px;
     color: #3f0512; 
     text-align: center; /* Centramos los títulos */
-    padding-bottom: 15px;
-    font-size: 40px;
+    font-size: 4vw; /* Ajuste del tamaño de fuente al tamaño de la pantalla */
 }
 
 /* Estilos para el texto de los párrafos */
 body p {
     padding-top: 30px;
     font-style: italic;
-    font-size: 30px;
+    font-size: 3vw; /* Ajuste del tamaño de fuente al tamaño de la pantalla */
     text-align: justify;
-    font-size: 30px;
+    /* Estilos para la biografía de Dua Lipa */
+    margin: 0 20px; /* Espacio de 20px a la izquierda y derecha */
+    padding: 20px; /* Espacio interno, puedes ajustarlo como desees */
+    background-color: rgba(255, 255, 255, 0.8); /* Fondo blanco con un poco de opacidad */
+    border-radius: 10px; /* Bordes redondeados */
 }
 
 /* Estilos para la sección del soundtrack (Spotify) */
@@ -71,6 +75,7 @@ body p {
 .spotify h4 {
     margin-bottom: 15px; /* Espaciado entre el título y el reproductor */
     color: #470514; /* Color oscuro para el título */
+    font-size: 3vw; /* Ajuste del tamaño de fuente al tamaño de la pantalla */
 }
 
 .spotify iframe {
@@ -94,7 +99,7 @@ body p {
     margin: 20px 0;
 }
 
-.main h4{
+.main h4 {
     text-align: center;
 }
 
@@ -102,7 +107,7 @@ body p {
 .social-links {
     display: flex;
     justify-content: center;
-    gap: 40px; /* Aumentamos el espacio entre los iconos de redes sociales a 40px */
+    gap: 60px; /* Aumentamos el espacio entre los iconos de redes sociales a 60px */
     margin-top: 20px;
 }
 
@@ -118,7 +123,6 @@ body p {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra al pasar el cursor */
 }
 
-
 /* Estilos para quitar la lista predeterminada */
 ul {
     list-style-type: none; /* Quitamos los puntos de la lista */
@@ -129,16 +133,15 @@ ul {
 .social-links ul {
     display: flex;
     justify-content: center;
-    gap: 50px; /* Espacio entre los elementos de la lista */
+    gap: 60px; /* Espacio entre los elementos de la lista */
 }
 
 /* Estilos para el pie de página */
 footer p {
-    font-size: 40px; /* Aumenta el tamaño de la fuente del texto en el footer */
+    font-size: 3vw; /* Tamaño de fuente ajustado al ancho de la pantalla */
     text-align: center; /* Asegúrate de que el texto esté centrado */
     color: #2c2c2c; /* Un color oscuro para el texto, puedes ajustarlo como desees */
 }
-
 
 /* Estilos para los enlaces dentro del pie de página */
 footer a {
@@ -149,4 +152,3 @@ footer a {
 footer a:hover {
     color: #700a3d; /* Color más oscuro al pasar el cursor por los enlaces */
 }
-
