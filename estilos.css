@@ -25,13 +25,13 @@ header img {
 
 /* Título y subtítulo en el header */
 header h1 {
-    font-size: 18px; /* Ajuste del tamaño de fuente al tamaño de la pantalla */
+    font-size: 20px; /* Ajuste del tamaño de fuente al tamaño de la pantalla */
     padding-top: 20px;
 }
 
 header h2 {
     color: #470514;
-    font-size: 4vw; /* Ajuste del tamaño de fuente al tamaño de la pantalla */
+    font-size: 15px; /* Ajuste del tamaño de fuente al tamaño de la pantalla */
     padding-bottom: 15px;
 }
 
@@ -40,23 +40,22 @@ main h3 {
     padding: 50px;
     color: #3f0512; 
     text-align: center; /* Centramos los títulos */
-    font-size: 4vw; /* Ajuste del tamaño de fuente al tamaño de la pantalla */
+    font-size: 15px; /* Ajuste del tamaño de fuente al tamaño de la pantalla */
 }
 
 main h2 {
     padding: 15px;
     color: #3f0512; 
     text-align: center; /* Centramos los títulos */
-    font-size: 4vw; /* Ajuste del tamaño de fuente al tamaño de la pantalla */
+    font-size: 15px; /* Ajuste del tamaño de fuente al tamaño de la pantalla */
 }
 
 /* Estilos para el texto de los párrafos */
 body p {
     padding-top: 30px;
     font-style: italic;
-    font-size: 3vw; /* Ajuste del tamaño de fuente al tamaño de la pantalla */
+    font-size: 15px; /* Ajuste del tamaño de fuente al tamaño de la pantalla */
     text-align: justify;
-    /* Estilos para la biografía de Dua Lipa */
     margin: 0 20px; /* Espacio de 20px a la izquierda y derecha */
     padding: 20px; /* Espacio interno, puedes ajustarlo como desees */
     background-color: rgba(255, 255, 255, 0.8); /* Fondo blanco con un poco de opacidad */
@@ -75,7 +74,7 @@ body p {
 .spotify h4 {
     margin-bottom: 15px; /* Espaciado entre el título y el reproductor */
     color: #470514; /* Color oscuro para el título */
-    font-size: 3vw; /* Ajuste del tamaño de fuente al tamaño de la pantalla */
+    font-size: 15px; /* Ajuste del tamaño de fuente al tamaño de la pantalla */
 }
 
 .spotify iframe {
@@ -138,7 +137,7 @@ ul {
 
 /* Estilos para el pie de página */
 footer p {
-    font-size: 3vw; /* Tamaño de fuente ajustado al ancho de la pantalla */
+    font-size: 18px; /* Tamaño de fuente ajustado al ancho de la pantalla */
     text-align: center; /* Asegúrate de que el texto esté centrado */
     color: #2c2c2c; /* Un color oscuro para el texto, puedes ajustarlo como desees */
 }
