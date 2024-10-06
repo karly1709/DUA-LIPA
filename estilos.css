@@ -25,7 +25,7 @@ header img {
 
 /* Título y subtítulo en el header */
 header h1 {
-    font-size: 5vw; /* Ajuste del tamaño de fuente al tamaño de la pantalla */
+    font-size: 18px; /* Ajuste del tamaño de fuente al tamaño de la pantalla */
     padding-top: 20px;
 }
 
